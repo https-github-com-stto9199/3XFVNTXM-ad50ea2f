@@ -43,6 +43,31 @@ After Download :
  
    <img src="https://img001.prntscr.com/file/img001/9rFpuiLqRBmd6gFHLkWLhA.png" >
       
+code before obfuscate:
+```php
+<?php
+  echo "Hi :)";
+?>
+```
+
+code after obfuscate:
+
+```php
+<?php
+//encrypted by rimurx
+//Made With L♥VE <3
+//thanks for use my tool give me star please
+//if you have any other idea or suggest contact me
+error_reporting(E_ALL ^ E_WARNING ^ E_NOTICE ^ E_STRICT ^ E_DEPRECATED);//u can remove this line it's just to disable errors reporting
+eval(openssl_decrypt(
+	str_rot13(gzuncompress(bzdecompress(base64_decode('QlpoODFBWSZTWf89zqAAAA3cz8MdAHAggAAJaMAAAUoAAC6AEAAgVoAgADGMmJphNMTATTAY00MjQeoPTSYNCIbgBhBcunDFWcE+FQkSeKXG8LHX3Taa4nMSUdK2/F3JFOFCQ/z3OoA=')))),
+	str_rot13(gzuncompress(bzdecompress(base64_decode('QlpoODFBWSZTWVdi3uYAAAfawsYeAEASAAAQRMAAHAgQSAAgACKADQekYhRoyBo0yNIls08lhEAaPoVSZlb4u5IpwoSCuxb3MA==')))),
+	str_rot13(gzuncompress(bzdecompress(base64_decode('QlpoODFBWSZTWa0RssAAAAZ79mGAABAEAAAAgAgAAQlCIAAgAAFABCEBGCAAMUAGI000aFAAAYajsmUuTVDQRMdIGrFCj4u5IpwoSFaI2WAA')))),
+	OPENSSL_ZERO_PADDING,
+	str_rot13(gzuncompress(bzdecompress(base64_decode('QlpoODFBWSZTWWGlCPgAAAlYjkUAAj1vAABAUADAAAAQIAAxQNNDIyYhRoDQ0aZqE5z0Q6e2t6vFVQHZx8XckU4UJBhpQj4A'))))
+));
+```
+
 ## Contact :
 
 ```
