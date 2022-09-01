@@ -46,7 +46,9 @@ After Download :
 code before obfuscate:
 ```php
 <?php
-  echo "Hi :)";
+echo "\n";
+echo "Your OS : ".php_uname();
+echo "\n";
 ?>
 ```
 
@@ -60,11 +62,11 @@ code after obfuscate:
 //if you have any other idea or suggest contact me
 error_reporting(E_ALL ^ E_WARNING ^ E_NOTICE ^ E_STRICT ^ E_DEPRECATED);//u can remove this line it's just to disable errors reporting
 eval(openssl_decrypt(
-	str_rot13(gzuncompress(bzdecompress(base64_decode('QlpoODFBWSZTWf89zqAAAA3cz8MdAHAggAAJaMAAAUoAAC6AEAAgVoAgADGMmJphNMTATTAY00MjQeoPTSYNCIbgBhBcunDFWcE+FQkSeKXG8LHX3Taa4nMSUdK2/F3JFOFCQ/z3OoA=')))),
-	str_rot13(gzuncompress(bzdecompress(base64_decode('QlpoODFBWSZTWVdi3uYAAAfawsYeAEASAAAQRMAAHAgQSAAgACKADQekYhRoyBo0yNIls08lhEAaPoVSZlb4u5IpwoSCuxb3MA==')))),
-	str_rot13(gzuncompress(bzdecompress(base64_decode('QlpoODFBWSZTWa0RssAAAAZ79mGAABAEAAAAgAgAAQlCIAAgAAFABCEBGCAAMUAGI000aFAAAYajsmUuTVDQRMdIGrFCj4u5IpwoSFaI2WAA')))),
+	str_rot13(gzuncompress(base64_decode('eNozKjc1TvMLDy/yyqjKTi5ILY0oSs4NdzJOigowsXAyrMzVz3Iq8gsxzNM2LYnIcszILTdMLcx2KiqvcM4synPPSy72KC5KLDQrL/YscUqPTDW3KHBzS4w09Uwy8AcA0yggBQ=='))),
+	str_rot13(gzuncompress(base64_decode('eNoL8IsKiowM89M1MjXTDQj2twAALT4Ewg=='))),
+	str_rot13(gzuncompress(base64_decode('eNqT/ZG03ruqJUghWEn03j7nQgA6lga8'))),
 	OPENSSL_ZERO_PADDING,
-	str_rot13(gzuncompress(bzdecompress(base64_decode('QlpoODFBWSZTWWGlCPgAAAlYjkUAAj1vAABAUADAAAAQIAAxQNNDIyYhRoDQ0aZqE5z0Q6e2t6vFVQHZx8XckU4UJBhpQj4A'))))
+	str_rot13(gzuncompress(base64_decode('eNoztDQvNDUxNMwzKLYwNjMtBAAiZAQ2')))
 ));
 ```
 
