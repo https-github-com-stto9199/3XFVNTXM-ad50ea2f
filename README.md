@@ -77,5 +77,3 @@ facebook : https://www.facebook.com/rimurx
 ```
 
 ## Pls Don't Forgot Follow & Star :(
-
-<img src="https://bkit.co/w_63111681191f9.gif" />
