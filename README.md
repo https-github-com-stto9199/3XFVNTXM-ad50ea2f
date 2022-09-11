@@ -1,3 +1,5 @@
+[![Hits](https://hits.sh/github.com/rimurx/3XFVNTXM.svg?label=Visitors)](https://hits.sh/github.com/rimurx/3XFVNTXM/)
+
 Buy Me a Coffee
 ===============
 
